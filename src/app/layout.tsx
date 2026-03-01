@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Collectra",
-  description: "Retro collector channels with collection, market, and utility tools."
+  title: "Golden Record",
+  description: "Cosmic collector channels with collection, social, and market tools."
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

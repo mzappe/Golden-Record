@@ -20,14 +20,14 @@ export default async function DashboardLayout({ children }: { children: React.Re
       <div className="gc-startup-sequence" aria-hidden="true">
         <div className="gc-startup-core">
           <span className="gc-startup-logo" aria-hidden="true">
-            C
+            GR
           </span>
-          <p className="gc-startup-wordmark">Collectra</p>
+          <p className="gc-startup-wordmark">Golden Record</p>
         </div>
       </div>
 
       <header className="gc-head">
-        <p className="gc-wordmark">Collectra</p>
+        <p className="gc-wordmark">Golden Record</p>
         <div className="gc-account-head">
           <Link href="/dashboard/options" className="side-avatar-link" aria-label="Open account options">
             <span className="side-avatar">{accountInitial}</span>

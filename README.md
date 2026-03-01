@@ -1,6 +1,6 @@
-# Collectra
+# Golden Record
 
-Retro collector channels for cards, games, and magazines with collection tracking, social sharing, and market-facing target analytics.
+Cosmic collector channels for cards, games, and magazines with collection tracking, social sharing, and market-facing target analytics.
 
 ## 1. Prerequisites
 

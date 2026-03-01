@@ -744,31 +744,31 @@ select {
   gap: 0.68rem;
 }
 
-.collectra-logo-mark {
+.golden-record-logo-mark {
   position: relative;
   width: 144px;
   height: 144px;
-  animation: collectra-logo-transition 2.5s ease forwards;
+  animation: golden-record-logo-transition 2.5s ease forwards;
 }
 
-.collectra-ring {
+.golden-record-ring {
   position: absolute;
   border-radius: 999px;
   border: 2px solid rgba(194, 206, 255, 0.82);
 }
 
-.collectra-ring-outer {
+.golden-record-ring-outer {
   inset: 9px;
   transform: rotate(24deg);
 }
 
-.collectra-ring-inner {
+.golden-record-ring-inner {
   inset: 26px;
   border-color: rgba(126, 143, 214, 0.84);
   transform: rotate(-26deg);
 }
 
-.collectra-core-c {
+.golden-record-core-c {
   position: absolute;
   inset: 0;
   display: grid;
@@ -779,7 +779,7 @@ select {
   color: #edf2ff;
 }
 
-.collectra-spark {
+.golden-record-spark {
   position: absolute;
   right: 16px;
   bottom: 20px;
@@ -905,7 +905,7 @@ select {
   }
 }
 
-@keyframes collectra-logo-transition {
+@keyframes golden-record-logo-transition {
   0% {
     opacity: 0;
     transform: translateY(20px) scale(0.82) rotate(-10deg);
@@ -966,14 +966,14 @@ select {
   }
 }
 
-.collectra-orbit-logo {
+.golden-record-orbit-logo {
   --logo-size: 136px;
   display: inline-grid;
   justify-items: center;
   gap: 0.46rem;
 }
 
-.collectra-orbit-mark {
+.golden-record-orbit-mark {
   position: relative;
   width: var(--logo-size);
   height: var(--logo-size);
@@ -981,7 +981,7 @@ select {
   filter: drop-shadow(0 10px 16px rgba(0, 0, 0, 0.34));
 }
 
-.collectra-solar-halo {
+.golden-record-solar-halo {
   position: absolute;
   inset: 8%;
   border-radius: 999px;
@@ -990,26 +990,26 @@ select {
     radial-gradient(circle at 68% 32%, rgba(255, 179, 131, 0.28), rgba(255, 179, 131, 0));
 }
 
-.collectra-orbit-ring {
+.golden-record-orbit-ring {
   position: absolute;
   border-radius: 999px;
   border: 1px solid rgba(187, 200, 255, 0.52);
   inset: 9px;
 }
 
-.collectra-orbit-ring-a {
+.golden-record-orbit-ring-a {
   transform: rotate(18deg);
-  animation: collectra-ring-a 8.6s linear infinite;
+  animation: golden-record-ring-a 8.6s linear infinite;
 }
 
-.collectra-orbit-ring-b {
+.golden-record-orbit-ring-b {
   inset: 23px;
   border-color: rgba(122, 143, 224, 0.56);
   transform: rotate(-22deg);
-  animation: collectra-ring-b 10.2s linear infinite;
+  animation: golden-record-ring-b 10.2s linear infinite;
 }
 
-.collectra-solar-core {
+.golden-record-solar-core {
   position: absolute;
   inset: 28%;
   border-radius: 999px;
@@ -1026,7 +1026,7 @@ select {
   box-shadow: 0 0 20px rgba(255, 179, 110, 0.48);
 }
 
-.collectra-orbit-wordmark {
+.golden-record-orbit-wordmark {
   margin: 0;
   font-size: 0.86rem;
   letter-spacing: 0.13em;
@@ -1420,7 +1420,7 @@ select {
   min-height: 5.2rem;
 }
 
-@keyframes collectra-ring-a {
+@keyframes golden-record-ring-a {
   from {
     transform: rotate(24deg);
   }
@@ -1429,7 +1429,7 @@ select {
   }
 }
 
-@keyframes collectra-ring-b {
+@keyframes golden-record-ring-b {
   from {
     transform: rotate(-26deg);
   }

@@ -66,11 +66,11 @@ export function SidebarNav() {
   };
 
   return (
-    <nav className={`gc-system-menu${launchingHref ? " gc-menu-launching" : ""}`} aria-label="Collectra channels">
+    <nav className={`gc-system-menu${launchingHref ? " gc-menu-launching" : ""}`} aria-label="Golden Record channels">
       <div className="gc-orbit-scene">
         <div className="gc-orbit-hub">
           <span className="gc-nav-sun" aria-hidden="true">
-            <span className="gc-nav-sun-letter">C</span>
+            <span className="gc-nav-sun-letter">GR</span>
           </span>
         </div>
         <ul className="gc-orbit-links">

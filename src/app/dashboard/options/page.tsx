@@ -32,7 +32,7 @@ export default async function OptionsPage() {
             </div>
             <div>
               <dt>Version</dt>
-              <dd>Collectra MVP</dd>
+              <dd>Golden Record MVP</dd>
             </div>
           </dl>
         </article>

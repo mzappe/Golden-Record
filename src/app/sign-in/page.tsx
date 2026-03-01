@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { AuthForm } from "@/components/auth-form";
-import { CollectraOrbitLogo } from "@/components/collectra-orbit-logo";
+import { GoldenRecordOrbitLogo } from "@/components/golden-record-orbit-logo";
 import { createClient } from "@/lib/supabase/server";
 
 export default async function SignInPage() {
@@ -17,8 +17,8 @@ export default async function SignInPage() {
     <main className="auth-shell">
       <section className="auth-stage">
         <div className="auth-brand" aria-hidden="true">
-          <CollectraOrbitLogo className="auth-orbit-logo" ariaHidden />
-          <h1>Collectra</h1>
+          <GoldenRecordOrbitLogo className="auth-orbit-logo" ariaHidden />
+          <h1>Golden Record</h1>
           <p>Track and share game, card, and magazine collections in one place.</p>
         </div>
 
