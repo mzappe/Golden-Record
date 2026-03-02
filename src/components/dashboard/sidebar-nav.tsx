@@ -9,7 +9,7 @@ const CHANNELS = [
   {
     href: "/dashboard/play",
     label: "Play",
-    angle: -92,
+    angle: -90,
     radius: "clamp(132px, 20vw, 168px)",
     speed: "7.2s",
     delay: "-1.1s",

@@ -22,12 +22,12 @@ export default async function DashboardLayout({ children }: { children: React.Re
           <span className="gc-startup-logo" aria-hidden="true">
             GR
           </span>
-          <p className="gc-startup-wordmark">Golden Record</p>
+          <p className="gc-startup-wordmark">The Golden Record</p>
         </div>
       </div>
 
       <header className="gc-head">
-        <p className="gc-wordmark">Golden Record</p>
+        <p className="gc-wordmark">The Golden Record</p>
         <div className="gc-account-head">
           <Link href="/dashboard/options" className="side-avatar-link" aria-label="Open account options">
             <span className="side-avatar">{accountInitial}</span>
